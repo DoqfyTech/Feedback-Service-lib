@@ -1,0 +1,34 @@
+{
+  "name": "feedback-widget-lib",
+  "version": "0.0.0-watch+1749043998772",
+  "peerDependencies": {
+    "@angular/common": "^14.2.0",
+    "@angular/core": "^14.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/feedback-widget-lib.mjs",
+  "es2020": "fesm2020/feedback-widget-lib.mjs",
+  "esm2020": "esm2020/feedback-widget-lib.mjs",
+  "fesm2020": "fesm2020/feedback-widget-lib.mjs",
+  "fesm2015": "fesm2015/feedback-widget-lib.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/feedback-widget-lib.mjs",
+      "es2020": "./fesm2020/feedback-widget-lib.mjs",
+      "es2015": "./fesm2015/feedback-widget-lib.mjs",
+      "node": "./fesm2015/feedback-widget-lib.mjs",
+      "default": "./fesm2020/feedback-widget-lib.mjs"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
+}
