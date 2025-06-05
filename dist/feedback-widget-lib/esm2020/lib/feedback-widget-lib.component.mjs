@@ -5,18 +5,18 @@ export class FeedbackWidgetLibComponent {
     ngOnInit() {
     }
 }
-FeedbackWidgetLibComponent.ɵfac = function FeedbackWidgetLibComponent_Factory(t) { return new (t || FeedbackWidgetLibComponent)(); };
-FeedbackWidgetLibComponent.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: FeedbackWidgetLibComponent, selectors: [["lib-feedback-widget-lib"]], decls: 2, vars: 0, template: function FeedbackWidgetLibComponent_Template(rf, ctx) { if (rf & 1) {
-        i0.ɵɵelementStart(0, "p");
-        i0.ɵɵtext(1, " feedback-widget-lib works! ");
-        i0.ɵɵelementEnd();
-    } }, encapsulation: 2 });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(FeedbackWidgetLibComponent, [{
-        type: Component,
-        args: [{ selector: 'lib-feedback-widget-lib', template: `
+FeedbackWidgetLibComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.3.0", ngImport: i0, type: FeedbackWidgetLibComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
+FeedbackWidgetLibComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "14.3.0", type: FeedbackWidgetLibComponent, selector: "lib-feedback-widget-lib", ngImport: i0, template: `
+    <p>
+      feedback-widget-lib works!
+    </p>
+  `, isInline: true });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.3.0", ngImport: i0, type: FeedbackWidgetLibComponent, decorators: [{
+            type: Component,
+            args: [{ selector: 'lib-feedback-widget-lib', template: `
     <p>
       feedback-widget-lib works!
     </p>
   ` }]
-    }], function () { return []; }, null); })();
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZmVlZGJhY2std2lkZ2V0LWxpYi5jb21wb25lbnQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9wcm9qZWN0cy9mZWVkYmFjay13aWRnZXQtbGliL3NyYy9saWIvZmVlZGJhY2std2lkZ2V0LWxpYi5jb21wb25lbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFNBQVMsRUFBVSxNQUFNLGVBQWUsQ0FBQzs7QUFZbEQsTUFBTSxPQUFPLDBCQUEwQjtJQUVyQyxnQkFBZ0IsQ0FBQztJQUVqQixRQUFRO0lBQ1IsQ0FBQzs7b0dBTFUsMEJBQTBCOzZFQUExQiwwQkFBMEI7UUFQbkMseUJBQUc7UUFDRCw0Q0FDRjtRQUFBLGlCQUFJOzt1RkFLSywwQkFBMEI7Y0FWdEMsU0FBUzsyQkFDRSx5QkFBeUIsWUFDekI7Ozs7R0FJVCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbXBvbmVudCwgT25Jbml0IH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5cbkBDb21wb25lbnQoe1xuICBzZWxlY3RvcjogJ2xpYi1mZWVkYmFjay13aWRnZXQtbGliJyxcbiAgdGVtcGxhdGU6IGBcbiAgICA8cD5cbiAgICAgIGZlZWRiYWNrLXdpZGdldC1saWIgd29ya3MhXG4gICAgPC9wPlxuICBgLFxuICBzdHlsZXM6IFtcbiAgXVxufSlcbmV4cG9ydCBjbGFzcyBGZWVkYmFja1dpZGdldExpYkNvbXBvbmVudCBpbXBsZW1lbnRzIE9uSW5pdCB7XG5cbiAgY29uc3RydWN0b3IoKSB7IH1cblxuICBuZ09uSW5pdCgpOiB2b2lkIHtcbiAgfVxuXG59XG4iXX0=
+        }], ctorParameters: function () { return []; } });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZmVlZGJhY2std2lkZ2V0LWxpYi5jb21wb25lbnQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9wcm9qZWN0cy9mZWVkYmFjay13aWRnZXQtbGliL3NyYy9saWIvZmVlZGJhY2std2lkZ2V0LWxpYi5jb21wb25lbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFNBQVMsRUFBVSxNQUFNLGVBQWUsQ0FBQzs7QUFZbEQsTUFBTSxPQUFPLDBCQUEwQjtJQUVyQyxnQkFBZ0IsQ0FBQztJQUVqQixRQUFRO0lBQ1IsQ0FBQzs7dUhBTFUsMEJBQTBCOzJHQUExQiwwQkFBMEIsK0RBUjNCOzs7O0dBSVQ7MkZBSVUsMEJBQTBCO2tCQVZ0QyxTQUFTOytCQUNFLHlCQUF5QixZQUN6Qjs7OztHQUlUIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29tcG9uZW50LCBPbkluaXQgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcblxuQENvbXBvbmVudCh7XG4gIHNlbGVjdG9yOiAnbGliLWZlZWRiYWNrLXdpZGdldC1saWInLFxuICB0ZW1wbGF0ZTogYFxuICAgIDxwPlxuICAgICAgZmVlZGJhY2std2lkZ2V0LWxpYiB3b3JrcyFcbiAgICA8L3A+XG4gIGAsXG4gIHN0eWxlczogW1xuICBdXG59KVxuZXhwb3J0IGNsYXNzIEZlZWRiYWNrV2lkZ2V0TGliQ29tcG9uZW50IGltcGxlbWVudHMgT25Jbml0IHtcblxuICBjb25zdHJ1Y3RvcigpIHsgfVxuXG4gIG5nT25Jbml0KCk6IHZvaWQge1xuICB9XG5cbn1cbiJdfQ==

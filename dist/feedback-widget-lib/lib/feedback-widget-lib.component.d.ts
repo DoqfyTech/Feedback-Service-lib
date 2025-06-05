@@ -6,4 +6,3 @@ export declare class FeedbackWidgetLibComponent implements OnInit {
     static ɵfac: i0.ɵɵFactoryDeclaration<FeedbackWidgetLibComponent, never>;
     static ɵcmp: i0.ɵɵComponentDeclaration<FeedbackWidgetLibComponent, "lib-feedback-widget-lib", never, {}, {}, never, never, false>;
 }
-//# sourceMappingURL=feedback-widget-lib.component.d.ts.map

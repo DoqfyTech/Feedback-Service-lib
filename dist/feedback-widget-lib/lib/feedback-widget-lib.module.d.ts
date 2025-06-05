@@ -5,4 +5,3 @@ export declare class FeedbackWidgetLibModule {
     static ɵmod: i0.ɵɵNgModuleDeclaration<FeedbackWidgetLibModule, [typeof i1.FeedbackWidgetLibComponent], never, [typeof i1.FeedbackWidgetLibComponent]>;
     static ɵinj: i0.ɵɵInjectorDeclaration<FeedbackWidgetLibModule>;
 }
-//# sourceMappingURL=feedback-widget-lib.module.d.ts.map
